@@ -1,4 +1,4 @@
-# Chaperoo To-Do List
+# To-Do List
 
 ## Run the Application
 
