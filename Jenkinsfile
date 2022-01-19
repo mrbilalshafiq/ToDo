@@ -3,14 +3,13 @@ pipeline{
         environment {
             app_version = 'v1'
             rollback = 'false'
-            DB_PASSWORD = 'password'
         }
         stages{
             stage('Build Image'){
                 steps{
                     script{
                         if (env.rollback == 'false'){
-                            image = docker.build("mrbilalshafiq/chaperoo-frontend")
+                            image = docker.build("[your-dockerhub-username]/chaperoo-frontend")
                         }
                     }
                 }
