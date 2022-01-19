@@ -2,7 +2,7 @@
     <div>
    
       <h1>
-        Welcome to Chaperoo To-Do
+        Welcome to ToDo
       </h1>
 
     </div>
